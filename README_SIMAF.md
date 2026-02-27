@@ -108,7 +108,6 @@ flowchart LR
     Presupuesto[Encargado de Presupuesto]
     Contador[Contador Municipal]
     Auditor[Auditor Municipal]
-    Concejo[Concejo Municipal]
 
     Sistema[SIMAF]
 
