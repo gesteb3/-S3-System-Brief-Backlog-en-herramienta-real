@@ -18,8 +18,6 @@ SIMAF centraliza la información financiera en una sola plataforma, permitiendo 
 - Encargado de Presupuesto  
 - Contador Municipal  
 - Auditor Municipal  
-- Concejo Municipal  
-- Departamento de Tesorería  
 
 ---
 
@@ -114,8 +112,8 @@ flowchart LR
 
     Sistema[SIMAF]
 
-    Director -->|Aprueba egresos| Sistema
+    Director -->|Aprueba egresos e ingresos| Sistema
     Presupuesto -->|Gestiona partidas| Sistema
     Contador -->|Registra ingresos y egresos| Sistema
     Auditor -->|Consulta y audita| Sistema
-    Concejo -->|Consulta reportes| Sistema
+
