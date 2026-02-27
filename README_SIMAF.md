@@ -76,7 +76,7 @@ graph TD
     Contador[Contador Municipal]
     Auditor[Auditor Municipal]
     
-    Sistema[SIMAF-MUNI]
+    Sistema[SIMAF]
     
     Director -->|Aprueba egresos| Sistema
     Presupuesto -->|Gestiona partidas| Sistema
