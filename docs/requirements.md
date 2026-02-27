@@ -54,7 +54,7 @@ Then el sistema muestra una alerta y bloquea el registro
 
 ## MVP Rationale
 
-Las historias clasificadas como Must conforman el Producto Mínimo Viable (MVP) porque permiten ejecutar el flujo financiero esencial del sistema: registrar ingresos, gestionar solicitudes de egreso, aprobar gastos y visualizar el saldo presupuestario actualizado. Sin estas funcionalidades, el sistema no cumpliría su propósito principal de control financiero municipal.
+Las historias clasificadas como Must conforman el Producto Mínimo Viable (MVP) porque permiten ejecutar el flujo financiero esencial del sistema. Sin estas funcionalidades, el sistema no cumpliría su propósito principal de control financiero municipal.
 
 Las historias Should agregan valor analítico y de supervisión, como la generación de reportes y consulta de historial, pero el sistema puede operar sin ellas en una primera versión.
 
