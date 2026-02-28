@@ -1,7 +1,7 @@
 # Requerimientos del Sistema
 
 ## Link al Backlog en Trello
-https://trello.com/invite/b/69a14f7d3274c47f5694f889/ATTI2619f1fffd6e99a717a90ecd6792c9b7E5B52559/simaf 
+https://trello.com/invite/b/69a34b8346e8b7122a205171/ATTIef6e87fa0f57e08a98ddd892ba1ff049160174B1/modernos-y-tecnologicos
 
 ---
 
