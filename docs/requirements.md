@@ -52,12 +52,29 @@ Then el sistema muestra una alerta y bloquea el registro
 
 ---
 
+## Endpoints del MVP
+
+- POST /ingresos — Registrar ingreso  
+- POST /egresos — Registrar egreso  
+- PUT /egresos/{id}/aprobar — Aprobar egreso  
+- GET /egresos/{id} — Consultar egreso  
+
+---
+
+## Contrato de API
+
+El contrato de la API se encuentra definido en:
+
+docs/api/openapi.yaml
+
+---
+
 ## MVP Rationale
 
-Las historias clasificadas como Must conforman el Producto Mínimo Viable (MVP) porque permiten ejecutar el flujo financiero esencial del sistema. Sin estas funcionalidades, el sistema no cumpliría su propósito principal de control financiero municipal.
+Las historias clasificadas como Must conforman el Producto Mínimo Viable (MVP) porque permiten ejecutar el flujo financiero esencial del sistema: registro de ingresos, gestión de egresos, aprobación de gastos y control del estado de las transacciones. Sin estas funcionalidades, el sistema no cumpliría su propósito principal de control financiero municipal.
 
 Las historias Should agregan valor analítico y de supervisión, como la generación de reportes y consulta de historial, pero el sistema puede operar sin ellas en una primera versión.
 
-La historia Could representa una mejora de experiencia y apoyo estratégico para la toma de decisiones, pero no es crítica para el control operativo básico.
+La historia Could representa una mejora de experiencia y apoyo estratégico para la toma de decisiones mediante visualización de datos, pero no es crítica para el control operativo básico.
 
 La historia Wont (Portal Público de Transparencia) se considera una funcionalidad futura orientada a ciudadanos y transparencia externa, por lo que no forma parte del alcance inicial del MVP.
