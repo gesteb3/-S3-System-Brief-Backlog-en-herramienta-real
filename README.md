@@ -52,10 +52,3 @@ docs/api/openapi.yaml
 
 ---
 
-## Arquitectura
-
-```mermaid
-graph TD
-    Usuario --> API[FastAPI SIMAF]
-    API --> Logica[Lógica de negocio]
-    Logica --> Memoria[Datos en memoria]
