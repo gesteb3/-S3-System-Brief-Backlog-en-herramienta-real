@@ -34,10 +34,10 @@ Para el MVP, los datos se almacenan en memoria utilizando estructuras simples, l
 ```mermaid
 graph TD
     Usuario -->|Solicitudes HTTP| API[API REST - FastAPI]
-    API --> Validacion[Validación de datos (Pydantic)]
-    API --> Logica[Lógica de negocio]
-    Logica --> Ingresos[Gestión de ingresos]
-    Logica --> Egresos[Gestión de egresos]
-    Egresos --> Aprobacion[Aprobación de egresos]
+    API --> Validacion[Validacion de datos Pydantic]
+    API --> Logica[Logica de negocio]
+    Logica --> Ingresos[Gestion de ingresos]
+    Logica --> Egresos[Gestion de egresos]
+    Egresos --> Aprobacion[Aprobacion de egresos]
     Logica --> Memoria[Almacenamiento en memoria]
     API -->|Respuestas JSON| Usuario
